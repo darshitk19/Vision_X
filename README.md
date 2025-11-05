@@ -99,6 +99,8 @@ Vision X/
 | Lane Detection | ENet-SAD | 512x256 | Semantic Segmentation |
 | Weather Prediction | EfficientNet-B1 | 112x112 | Classification |
 
+## 🚀 Vision X Module-Wise Performance Metrics
+
 | Module                  | Model Used              | Accuracy     | Precision | Recall   | mAP (if applicable)                     |
 | ----------------------- | ----------------------- | ------------ | --------- | -------- | --------------------------------------- |
 | **Weather Detection**   | EfficientNet-B1         | **94.2 %**   | 93.8 %    | 92.4 %   | —                                       |
@@ -173,3 +175,4 @@ This project uses YOLOv5 (under the GPL license) and other open-source computer 
 ### 👨‍💻 Developed By  
 **Darshit Kachhadiya** 
 > *"Turning vision into intelligence — one frame at a time."*
+
