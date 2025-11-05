@@ -1,4 +1,4 @@
-# Vision X - Road Analysis System
+# Vision X – Smart Multi-Scenario Road Analyzer🛣️
 
 A comprehensive real-time road analysis system that performs simultaneous detection of potholes, traffic signs, lane lines, and weather conditions using advanced computer vision models.
 
@@ -170,3 +170,6 @@ This project uses YOLOv5 (under the GPL license) and other open-source computer 
 - ENet-SAD architecture for lane detection
 - EfficientNet for weather classification
 
+### 👨‍💻 Developed By  
+**Darshit Kachhadiya** 
+> *"Turning vision into intelligence — one frame at a time."*
