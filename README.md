@@ -71,17 +71,21 @@ This will test:
 ## Project Structure
 
 ```
-Vision X/
-│   ├── unified_detection_app.py   # Main Streamlit application
-│   ├── test_models.py              # Comprehensive model tests
-│   ├── quick_test.py               # Quick validation
-│   ├── enet_sad.py                 # Lane detection architecture
-│   ├── pothole_detection.pt        # Pothole detection model
-│   ├── sign_detection.pt           # Sign detection model
-│   ├── lane_detection_eNet.pth    # Lane detection model
-│   ├── weather_prediction.pt      # Weather prediction model
-│   └──                  # YOLOv5 directory
-└── README.md                       # This file
+Vision_X/
+│
+├── colab files/                # Folder containing additional ipynb modules
+├── test/                        # Folder for test scripts and assets
+│
+├── enet_sad.py                  # Lane detection architecture (ENet-SAD)
+├── output_vision_X.jpg          # Sample output image for README visualization
+├── quick_test.py                # Script to quickly verify model loading
+├── requirements.txt             # All required dependencies
+├── test_models.py               # Comprehensive model integration testing
+├── unified_detection_app.py     # Main Streamlit application for Vision X
+├── README.md                    # Project documentation
+│
+└── (Models not uploaded)        # .pt and .pth files excluded via .gitignore
+
 ```
 
 ## Model Information
@@ -169,5 +173,6 @@ This project uses YOLOv5 (under the GPL license) and other open-source computer 
 ### 👨‍💻 Developed By  
 **Darshit Kachhadiya** 
 > *"Turning vision into intelligence — one frame at a time."*
+
 
 
