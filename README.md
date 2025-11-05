@@ -38,24 +38,20 @@ pip install streamlit torch torchvision opencv-python pillow numpy ultralytics
 
 ### Running the Application
 
-1. Navigate to the Models directory:
-```bash
-cd Models
-```
 
-2. Launch the Streamlit application:
+
+1. Launch the Streamlit application:
 ```bash
 streamlit run unified_detection_app.py
 ```
 
-3. The app will automatically open in your browser at: `http://localhost:8501`
+2. The app will automatically open in your browser at: `http://localhost:8501`
 
 ### Quick Test
 
 To verify all models are working correctly:
 
 ```bash
-cd Models
 python quick_test.py
 ```
 
@@ -64,7 +60,6 @@ python quick_test.py
 Run the comprehensive test suite to verify all detection models:
 
 ```bash
-cd Models
 python test_models.py
 ```
 
@@ -77,7 +72,6 @@ This will test:
 
 ```
 Vision X/
-├── Models/
 │   ├── unified_detection_app.py   # Main Streamlit application
 │   ├── test_models.py              # Comprehensive model tests
 │   ├── quick_test.py               # Quick validation
@@ -86,7 +80,7 @@ Vision X/
 │   ├── sign_detection.pt           # Sign detection model
 │   ├── lane_detection_eNet.pth    # Lane detection model
 │   ├── weather_prediction.pt      # Weather prediction model
-│   └── yolov5/                     # YOLOv5 directory
+│   └──                  # YOLOv5 directory
 └── README.md                       # This file
 ```
 
@@ -175,4 +169,5 @@ This project uses YOLOv5 (under the GPL license) and other open-source computer 
 ### 👨‍💻 Developed By  
 **Darshit Kachhadiya** 
 > *"Turning vision into intelligence — one frame at a time."*
+
 
